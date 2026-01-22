@@ -96,3 +96,39 @@ python main.py
 ```
 http://127.0.0.1:5000/
 ```
+---
+
+## 🧠 System Logic
+
+### 🔹 Offline Mode
+- Uses **rule-based pattern matching**
+- Responds instantly without internet
+
+### 🔹 Online Mode
+- Uses a trained **intent recognition model**
+- Provides smarter contextual responses
+
+### 🔹 Voice Mode
+- Speech → Text → NLP → Response
+
+---
+
+## 📈 Future Enhancements
+
+- 🤖 Transformer-based intent model (BERT / DistilBERT)
+- 🌍 Multilingual support
+- 📱 Mobile-friendly PWA interface
+- 💬 Conversation context + memory
+- 🧠 Knowledge graph integration
+- 🌐 Cloud deployment (Render / Railway / AWS / GCP)
+- 🎤 Speech-to-Text model refinement
+
+---
+
+## 👤 Author
+
+**Sreerag A. S**
+
+_AIML & Software Development Enthusiast_
+
+---
