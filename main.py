@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, jsonify
 import aiml
 import os
+import openai
+from openai import OpenAI
 
 app = Flask(__name__)
 
