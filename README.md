@@ -1,49 +1,98 @@
+<div align="center">
+
 # 🌌 Hybrid NLP Chatbot — Offline + Online
-_Aesthetic Web-Based AI Assistant built with Flask + Voice + Hybrid NLP_
 
-<div align="center">
-  <img src="your-screenshot-here.png" width="85%" alt="Chat UI Preview"/>
+A modern & aesthetic conversational assistant built with  
+**Flask + Voice + Hybrid NLP (Rule + Intent)**
+
+<br>
+
+🎤 Voice Input &nbsp;•&nbsp; 🌐 Offline Mode &nbsp;•&nbsp; 🧠 Intent Recognition &nbsp;•&nbsp; 🎨 Custom UI
+
+<br><br>
+
 </div>
 
 ---
 
-## 🌈 Overview
-This project is a **Hybrid NLP Chatbot** that responds to user queries both **online and offline**.  
-It combines:
-- 🧩 Rule-based logic (offline)
-- 🧠 Intent recognition (online)
-- 🗣️ Voice-based interaction
-- 🎨 Aesthetic web UI (Flask)
+## 🧿 Overview
 
-Whether internet is available or not, the chatbot never stops responding.
+This project is a **Hybrid NLP Chatbot** designed to respond to user queries  
+whether the user is **online or offline**.
+
+It blends together:
+
+- 🧩 **Rule-based logic (offline)**
+- 🧠 **Intent recognition model (online)**
+- 🎤 **Voice-based interaction**
+- 🎨 **Flask-based aesthetic web interface**
+
+The chatbot **never stops responding** — with or without internet.
 
 ---
 
-## 🎨 Web UI Highlights
-- ✨ Glass-effect chat container  
-- 🌅 Anime-themed background  
-- 🎤 Voice input support  
-- 🚀 Smooth interaction with Flask backend  
-- 🌙 Soft pastel color palette for comfort  
+## 🎨 UI & Experience
 
-<div align="center">
-  <img src="your-ui-screenshot.png" width="85%" alt="Chat UI"/>
-</div>
+- 🧊 Glass-effect chat container  
+- 🌅 Anime-style aesthetic background  
+- 🎤 Microphone-based voice input  
+- 🌙 Pastel themed UI  
+- 🚀 Smooth client → server interaction  
 
 ---
 
 ## 💡 Features
-- 🌐 Online + Offline hybrid answering
-- 🧠 Intent detection system
-- 📚 Rule-based fallback engine
-- 🗣️ Voice input (Speech-to-Text)
-- 🎨 Flask-based aesthetic UI
-- ⚡ Fast & lightweight
+
+- 🌐 Hybrid answering pipeline (Offline + Online)
+- 🧠 Custom NLP intent classifier
+- 📚 Robust rule-engine fallback for offline mode
+- 🎤 Voice → Speech-to-Text input
+- ⚡ Lightweight Flask execution
+- 🎨 Personal aesthetic UI design
+
+---
+
+## 📁 Project Structure
+
+```
+📦 Hybrid-NLP-Chatbot
+ ┣ 📂 aiml/
+ ┃ ┗ (NLP model + logic)
+ ┣ 📂 templates/
+ ┃ ┗ index.html
+ ┣ 📜 main.py          # Main Flask Application
+ ┣ 📜 main-raw.py      # Development version (optional)
+ ┗ 📜 requirements.txt # Dependencies
+```
+
 
 ---
 
 ## 🛠 Tech Stack
-| Layer | Technology |
-|-----|------------|
+
+| Category | Technologies |
+|---|---|
 | Backend | Python, Flask |
-| NLP 
+| NLP | Custom rule-engine + intent model |
+| Voice | Web Speech API |
+| Interface | HTML, CSS, JavaScript |
+| Package Mgmt | pip + requirements.txt |
+
+---
+
+## 🚀 Running the Project
+
+### 1️⃣ Install Dependencies
+```sh
+pip install -r requirements.txt
+```
+
+### 2️⃣ Launch Flask Server
+```sh
+python main.py
+```
+
+### 3️⃣ Open in Browser
+```
+http://127.0.0.1:5000/
+```
